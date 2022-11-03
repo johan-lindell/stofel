@@ -1,0 +1,129 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 20px;
+  font-family: 'Liberation Sans', Arial, Helvetica, sans-serif;
+  background: -webkit-linear-gradient(left, #e78105, #ffc801);
+  background: -o-linear-gradient(left, #e78105, #ffc801);
+  background: -moz-linear-gradient(left, #e78105, #ffc801);
+  background: linear-gradient(left, #e78105, #ffc801);
+  background-color: #e78105;
+}
+
+a {
+  color: #ff0;
+}
+
+h1 {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  text-align: justify;
+}
+
+.header {
+  height: 50px;
+  background: #fff;
+  padding-top: 15px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 15px;
+}
+
+.logo {
+  float: left;
+  color: #000;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 900;
+  font-size: 2.5em;
+  width: 40%;
+}
+
+.logo a {
+  color: #000;
+  text-decoration: none;
+}
+
+.right {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  float: right;
+  width: 60%;
+  text-align: right;
+  padding-top: 15px;
+  color: #837E7C;
+}
+
+.content {
+  color: #fff;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-top: 0px;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 20px;
+  background: #9c1240;
+  color: #fff;
+  font-family: 'Liberation Sans', Arial, Helvetica, sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer-text {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.footer-text a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+label {
+  float: left;
+  width: 15%;
+  margin: 0 0 15px 0;
+  display: block;
+}
+
+input {
+  color: #000;
+  background: #fff;
+  border: 0px;
+  margin-left: 10px;
+}
+
+select {
+  color: #000;
+  background: #fff;
+  border: 0px;
+  margin-left: 10px;
+}
+
+.form-right {
+  margin-left: 15%;
+}
+
+.text-right {
+  margin-left: 15%;
+  padding-left: 10px;
+}
+
+.submit input {
+  color: #000;
+  background: #fff;
+  border: 0px;
+}
